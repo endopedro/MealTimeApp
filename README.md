@@ -1,6 +1,8 @@
-# MealTimeApp
+# Meal Time App
 
 An android app that help you to find a recipe for dinner. This application is powered by [TheMealDB](https://www.themealdb.com/).
+
+![image1](https://raw.githubusercontent.com/endopedro/MealTimeApp/master/prints/app1.png) ![image2](https://raw.githubusercontent.com/endopedro/MealTimeApp/master/prints/app2.png)
 
 ## Installation
 
