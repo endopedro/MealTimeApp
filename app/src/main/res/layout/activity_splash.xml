@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:orientation="vertical"
+    android:background="#ddFF6347">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meal Time"
+        android:textColor="#F0F0F0"
+        android:textSize="40sp"
+        android:gravity="bottom|center"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="App"
+        android:textColor="#F0F0F0"
+        android:textSize="40sp"
+        android:gravity="top|center"
+        android:layout_weight="1"/>
+
+</LinearLayout>

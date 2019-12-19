@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/detail_meal_thumb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            app:layout_constraintTop_toBottomOf="@id/detail_meal_name"
+            android:paddingTop="20dp"/>
+        <TextView
+            android:id="@+id/detail_meal_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#F0F0F0"
+            android:background="#ddFF6347"
+            android:gravity="center"
+            android:elegantTextHeight="true"
+            android:textStyle="bold"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/detail_meal_ingred"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/detail_meal_thumb"
+            android:paddingHorizontal="15dp"
+            android:paddingTop="20dp"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/detail_meal_instruction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/detail_meal_ingred"
+            android:paddingEnd="15dp"
+            android:paddingStart="15dp"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/detail_meal_cat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/detail_meal_instruction"
+            android:paddingTop="20dp"
+            android:textSize="16sp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"/>
+
+        <TextView
+            android:id="@+id/detail_meal_ytb_link"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="16sp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            app:layout_constraintTop_toBottomOf="@id/detail_meal_cat"
+            android:maxLines="1"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.core.widget.NestedScrollView>
